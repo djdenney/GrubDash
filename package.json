@@ -25,7 +25,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "cross-conf-env": "^1.2.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "vercel": "^22.0.1"
   },
   "devDependencies": {
     "jest": "^26.4.2",
