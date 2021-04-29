@@ -72,8 +72,8 @@ function statusIsInvalid(req, res, next) {
     status === 'pending' || 
     status === 'preparing' || 
     status === 'out-for-delivery' ? 
-    next() : 
-    next({ status: 400, message: `Order must have a status of pending, preparing, out-for-delivery, delivered` })
+        next() : 
+        next({ status: 400, message: `Order must have a status of pending, preparing, out-for-delivery, delivered` })
 }
 
 function dataIdDoesNotMatchOrderId(req, res, next) {
